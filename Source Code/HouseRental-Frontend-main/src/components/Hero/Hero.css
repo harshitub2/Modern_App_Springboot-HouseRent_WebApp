@@ -1,0 +1,32 @@
+.hero {
+  background-image: url("../../Assets/banner.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 90vh;
+  width: 100%;
+}
+
+.hero h1 {
+  font-size: 2.5vw;
+  color: white;
+}
+
+.container {
+  padding-top: 10vh;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 1.5vw;
+  color: #eeeeee;
+  opacity: 0.8;
+  padding: 0 10%;
+
+  /* Media Queries */
+  @media (max-width: 768px) {
+    font-size: 2.5vw;
+  }
+}

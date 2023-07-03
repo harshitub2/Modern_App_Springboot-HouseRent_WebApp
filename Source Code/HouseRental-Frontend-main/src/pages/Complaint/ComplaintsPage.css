@@ -1,0 +1,136 @@
+.complaint-card .metadata {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 8px;
+}
+
+.complaint-card .metadata span {
+  margin-right: 8px;
+}
+
+.complaint-card .metadata .from {
+  font-weight: bold;
+}
+
+.complaint-card .metadata .to {
+  font-weight: bold;
+}
+
+.complaints-page {
+  margin-left: 0;
+  padding-left: 0;
+  max-width: 800px;
+  margin: 0 auto;
+  /* padding: 2px; */
+}
+
+
+.tabs {
+  display: flex;
+  justify-content: center; /* Center align tabs */
+  margin-bottom: 16px;
+}
+
+.tab {
+  padding: 12px 20px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  color: #555;
+  transition: background-color 0.3s ease-in-out;
+  border-radius: 20px;
+  outline: none;
+  margin: 0 8px; 
+}
+
+.tab.active {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.tab:hover {
+  background-color: #f0f0f0;
+}
+
+/* .complaints-container {
+  display: grid;
+  grid-gap: 16px;
+} */
+
+.complaint-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.complaint-card.resolved {
+  border-color: #4caf50;
+}
+
+.complaint-card.unresolved {
+  border-color: #f44336;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  margin-bottom: 12px;
+}
+
+.card-header h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.status-indicator {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.status-indicator.resolved {
+  background-color: #4caf50;
+}
+
+.status-indicator.unresolved {
+  background-color: #f44336;
+}
+
+.message {
+  margin-top: 12px;
+  font-size: 14px;
+  color: #555;
+}
+
+.complaint-card .metadata {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #777;
+}
+
+.complaint-card .metadata span {
+  margin-right: 8px;
+}
+
+.complaint-card .metadata .from {
+  font-weight: bold;
+}
+
+.complaint-card .metadata .to {
+  font-weight: bold;
+}
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+  overflow: auto;
+
+}
+

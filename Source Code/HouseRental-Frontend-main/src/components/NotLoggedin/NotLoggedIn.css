@@ -1,0 +1,64 @@
+.not-logged-in-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  .not-logged-in-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    animation: fade-in 1s ease-in-out;
+  }
+  
+  .not-logged-in-text {
+    font-size: 18px;
+    margin-bottom: 30px;
+    animation: slide-in 1s ease-in-out;
+  }
+  
+  .go-to-landing-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ffc107;
+    border: none;
+    color: #333;
+    border-radius: 4px;
+    cursor: pointer;
+    animation: scale-in 1s ease-in-out;
+  }
+  
+  .go-to-landing-btn:hover {
+    background-color: #ffcd38;
+  }
+  
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slide-in {
+    from {
+      transform: translateY(-50px);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes scale-in {
+    from {
+      transform: scale(0.5);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
+  

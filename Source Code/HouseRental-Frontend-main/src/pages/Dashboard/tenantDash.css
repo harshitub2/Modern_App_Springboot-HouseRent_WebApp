@@ -1,0 +1,41 @@
+.card-img-top {
+    object-fit: cover;
+    height: 200px;
+  }
+  .card {
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+  }
+  .card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .card-title {
+    color: #333;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .card-title .icon {
+    margin-right: 10px;
+    margin-bottom: 2px;
+  }
+  .card-body hr {
+    border-top: 1px solid #ccc;
+  }
+  .card-body .mb-3 label {
+    font-weight: bold;
+  }
+  .raise-complaint-btn {
+    background-color: #ffc107;
+    border-color: #ffc107;
+    color: #333;
+  }
+  .raise-complaint-btn:hover {
+    background-color: #ffcd38;
+    border-color: #ffcd38;
+    color: #333;
+  }

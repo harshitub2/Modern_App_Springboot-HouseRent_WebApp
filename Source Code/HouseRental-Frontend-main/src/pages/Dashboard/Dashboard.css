@@ -1,0 +1,33 @@
+  .icon{
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding-bottom: 10px;
+}
+.card h4,
+.card-title,
+.text {
+  color: white;
+}  
+ 
+/* .contain{
+  padding-bottom: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+} */
+.contain {
+  padding-bottom: 2rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.contain > .row {
+  margin-right: -1rem;
+  margin-left: -1rem;
+}
+
+.contain > .row > .col-sm-12 {
+  padding-right: 1rem;
+  padding-left: 1rem;
+  margin-bottom: 1rem;
+}

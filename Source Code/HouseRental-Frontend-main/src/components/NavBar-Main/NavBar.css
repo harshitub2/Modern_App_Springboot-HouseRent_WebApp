@@ -1,0 +1,20 @@
+/* NavBar.css */
+
+.slim-navbar {
+    padding: 0;
+  }
+  
+  .slim-navbar .navbar-toggler {
+    margin-right: 1rem;
+  }
+  
+  .slim-navbar .navbar-nav {
+    margin-left: auto;
+  }
+  .profile-dropdown {
+    margin-right: 4rem;
+  }
+  .dropdown-menu.profile-dropdown {
+  max-height: unset;
+  overflow-y: hidden;
+}
