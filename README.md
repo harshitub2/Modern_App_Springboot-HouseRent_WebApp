@@ -1,2 +1,51 @@
-# Modern_App_springboot-House_Rent_WebApp
-Your one-stop shop for discovering the ideal rental property. Our application streamlines the home search process with a user-friendly design and sophisticated search capabilities. Select a property from a large selection, sort by location, cost, and features, and get in touch with the landlords directly. With our user-friendly House Rent Web Application, bid endless scrolling farewell and welcome to your perfect rental.
+# RentSure - House Rental Management Application
+
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
+<br />
+A House Rental Management Application, which helps landlords and tenants mangage their rental properties. It apps features dedicated accounts and dashboard for tenants and landlords which displays all the necessary information like Rent Due, Rent Paid, Maintenance Requests, etc.
+
+## Deployed Link
+
+-   RentSure Frontend - [Deployed Frontend Link](https://rent-sure.vercel.app/)
+-   RentSure Backend API - [Deployed Backend Link](https://houserentalapi-production.up.railway.app/)
+
+## Features
+
+-   User Authentication
+-   User Dashboard
+-   Automatic Rent Calculation and Management
+-   Maintenance Request and other Complaints Management
+-   Manage Properties and Tenants
+
+## Tech Stack
+
+-   React
+-   Spring Boot
+-   MongoDB
+
+## Deployment
+
+-   Frontend - Vercel
+-   Backend - Railway
+
+## Installation
+
+1. Clone repository
+
+```bash
+git clone "repo link"
+```
+
+2. Install packages
+
+```bash
+cd "app"
+npm install
+```
+
+3. Start React frontend
+
+```bash
+npm start
+```
