@@ -14,6 +14,11 @@ A House Rental Management Application, which helps landlords and tenants mangage
 
 -   Project Demo - [Demo Video Link](https://drive.google.com/file/d/1ODgeSbt_vbG11N9X8kWbQyUl0EHGlzAm/view?usp=sharing)
 
+## GitHub Repo Link
+
+-   RentSure Frontend - [FrontEnd Github Repo](https://github.com/Mayur0307/HouseRental-Frontend)
+-   RentSure Backend API - [BackEnd Github Repo](https://github.com/mayankdhnkr/HouseRentalAPI)
+
 ## Features
 
 -   User Authentication
